@@ -1,0 +1,16 @@
+name: Invisibility_Cloak
+version: 3.1
+main: me.AKZOMBIE74.invisibilitycloak.Main
+commands:
+  ic:
+    description: The main command of the invisibility cloak. Do /ic give <player name> - to give the targeted player the Invisibility Cloak or do /ic me - to give yourself the Invisibility Cloak.
+permissions:
+  ic.command:
+    description: Permission to use /ic <user> command
+    default: op
+  ic.wear:
+    description: Permission to wear cloak
+    default: op
+  ic.remove:
+    description: Permission to remove cloak
+    default: op
